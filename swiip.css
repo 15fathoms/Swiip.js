@@ -1,0 +1,11 @@
+.swiip_track {
+    cursor: grab;
+}
+
+.swiip_track * {
+    user-select: none;
+}
+
+.swiip_wrapper {
+    overflow: hidden;
+}

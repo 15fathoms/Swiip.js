@@ -1,6 +1,6 @@
 # Swiip.js
 
-A minimalist carousel library built with pure JavaScript and CSS grid.
+A minimalist carousel library built with pure JavaScript, CSS grid and ❤️.
 
 ## What is Swiip.js ?
 
@@ -131,9 +131,12 @@ container.Swiip({
 
 ## Developer's note
 
-Swiip.js is a plugin I developed for both personal and professional projects. While I am aware that there are already numerous carousel plugins available, I wanted to create my own.
-Many carousel plugins rely on jQuery, have dependencies, or lack responsiveness. I believed it would be a great idea to develop a carousel plugin using pure JavaScript that is also fully responsive.
-I understand that this plugin may not be flawless, but I am committed to improving it in the future.
+Swiip.js is a library I developed for both personal and professional projects. While I am aware that there are already numerous carousel librarys available, I wanted to create my own.
+Many carousel libraries rely on jQuery, have dependencies, or lack responsiveness. I believed it would be a great idea to develop a carousel library using pure JavaScript that is also fully responsive.
+Carousels are mainly built using flexbox, but I wanted to challenge myself by using CSS grid instead. I also wanted to make sure that the library would be easy to use and integrate into any project.
+As a result, Swiip.js was born.
+
+I understand that this library may not be flawless, but I am committed to improving it in the future.
 If you have any suggestions, ideas, or come across any bugs, please don't hesitate to reach out to me.
 You can contact me here : [FATHOMS](mailto:fathoms.contact@gmail.com).
 
