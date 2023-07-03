@@ -50,6 +50,7 @@ const container = document.querySelector(".container");
 container.Swiip();
 ```
 Basic swiip.js usage will use the default options.
+
 **IMPORTANT :** Basic usage assume that you have at least 4 items in your container.
 
 
