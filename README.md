@@ -60,23 +60,23 @@ Here is a table of the options, types, default values, and a brief description o
 
 | Option | Types | Default value | Description |
 | --- | --- | --- | --- |
-| `slidesToScroll` | Any positive Number | `1` | The number of slides to scroll when the user clicks the next or previous button or when autoplay is enabled. Can't exceed `slidesVisible` value|
-| `slidesVisible` | Any positive Number | `4` | The number of visible slides at a time. **Can't exceed the number of children from targeted element**|
-| `autoPlay` | `true` or `false` | `false` | Determines whether the carousel automatically plays or not. |
-| `autoPlaySpeed` | Any positive Number | `3000` | The speed in milliseconds between autoplay transitions. |
-| `gap` | Any positive number | `0` | The gap between slides. (rem unit) |
-| `responsive` | An array of objects | See below | An array of objects representing the responsive behavior of the carousel at different breakpoints. |
+| `slidesToScroll` | `Number` | `1` | The number of slides to scroll when the user clicks the next or previous button or when autoplay is enabled. Can't exceed `slidesVisible` value|
+| `slidesVisible` | `Number` | `4` | The number of visible slides at a time. **Can't exceed the number of children from targeted element**|
+| `autoPlay` | `Boolean` | `false` | Determines whether the carousel automatically plays or not. |
+| `autoPlaySpeed` | `Number` | `3000` | The speed in milliseconds between autoplay transitions. |
+| `gap` | `Number` | `0` | The gap between slides. (rem unit) |
+| `responsive` | `Array` | See below | An array of objects representing the responsive behavior of the carousel at different breakpoints. |
 
 The `responsive` array contains objects representing the responsive behavior of the carousel at different breakpoints. Each object in the array should have the following properties:
 
 | Property | Types | Description |
 | --- | --- | --- |
-| `breakpoint` | Any positive Number | The maximum width of the viewport at which the responsive behavior takes effect. |
-| `slidesToScroll` | Any positive Number | The number of slides to scroll at this breakpoint. |
-| `slidesVisible` | Any positive Number | The number of visible slides at a time at this breakpoint. |
-| `autoPlay` | `true` or `false` | Whether autoplay is enabled at this breakpoint. |
-| `autoPlaySpeed` | Any positive Number | The speed in milliseconds between autoplay transitions at this breakpoint. |
-| `gap` | Any positive number | The gap between slides at this breakpoint. (rem unit)|
+| `breakpoint` | `Number` | The maximum width of the viewport at which the responsive behavior takes effect. |
+| `slidesToScroll` | `Number` | The number of slides to scroll at this breakpoint. |
+| `slidesVisible` | `Number` | The number of visible slides at a time at this breakpoint. |
+| `autoPlay` | `Boolean` | Whether autoplay is enabled at this breakpoint. |
+| `autoPlaySpeed` | `Number` | The speed in milliseconds between autoplay transitions at this breakpoint. |
+| `gap` | `Number` | The gap between slides at this breakpoint. (rem unit)|
 This will create a carousel that shows 3 slides at a time, scrolls 2 slides at a time, has a gap of 1 rem between slides, and automatically plays the slides every 5 seconds. The carousel will also adjust its options for different screen sizes.
 
 
