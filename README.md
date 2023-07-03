@@ -77,7 +77,6 @@ The `responsive` array contains objects representing the responsive behavior of 
 | `autoPlay` | `Boolean` | Whether autoplay is enabled at this breakpoint. |
 | `autoPlaySpeed` | `Number` | The speed in milliseconds between autoplay transitions at this breakpoint. |
 | `gap` | `Number` | The gap between slides at this breakpoint. (rem unit)|
-This will create a carousel that shows 3 slides at a time, scrolls 2 slides at a time, has a gap of 1 rem between slides, and automatically plays the slides every 5 seconds. The carousel will also adjust its options for different screen sizes.
 
 
 **Important :** 
