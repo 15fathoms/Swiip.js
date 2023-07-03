@@ -143,16 +143,24 @@ class Carousel {
 
     swipNext() {
         this.index = this.index + this.slidesToScroll;
-        this.track.style.transform = `translateX(calc(-${this.index * (100 / this.slidesVisible)
-            }% - (${this.gap / this.slidesVisible} * ${this.index}rem)))`;
-        this.track.style.transition = "transform 0.5s";
+        let targetTransform = `translateX(calc(-${this.index * (100 / this.slidesVisible)}% - (${this.gap / this.slidesVisible} * ${this.index}rem)))`;
+        let animate = () => {
+            this.track.style.transform = targetTransform;
+            this.track.style.transition = "transform 0.5s";
+        };
+        requestAnimationFrame(animate);
     }
 
     swipPrev() {
         this.index = this.index - this.slidesToScroll;
-        this.track.style.transform = `translateX(calc(-${this.index * (100 / this.slidesVisible)
+        let targetTransform = `translateX(calc(-${this.index * (100 / this.slidesVisible)
             }% - (${this.gap / this.slidesVisible} * ${this.index}rem)))`;
-        this.track.style.transition = "transform 0.5s";
+        
+        let animate = () => {
+            this.track.style.transform = targetTransform;
+            this.track.style.transition = "transform 0.5s";
+        }
+        requestAnimationFrame(animate);
     }
 
     resetIndex() {

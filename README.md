@@ -94,8 +94,8 @@ if you don't respect these rules, Swiip will not work properly.
 ```javascript
 const container = document.querySelector(".container");
 container.Swiip({
-    prevBtn: ".prev", // the class of the previous button
-    nextBtn: ".next", // the class of the next button
+    prevBtn: document.querySelector('.prev'),
+    nextBtn: document.querySelector('.next'),
     slidesToScroll: 1,
     slidesVisible: 4,
     autoPlay: true,
