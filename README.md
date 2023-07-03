@@ -11,6 +11,15 @@ Notably, Swiip.js is designed to function on mobile devices, ensuring a smooth u
 
 ## How to use
 
+### Installation
+
+To use Swiip.js, you can either download the source code or use the CDN link below :
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/EmmanuelCartelli/Swiip.js@master/swiip.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmanuelCartelli/Swiip.js@master/swiip.css">
+```
+
 ### HTML
 
 the html structure to use Swiip.js is the following :
