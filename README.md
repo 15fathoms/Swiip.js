@@ -146,4 +146,4 @@ Swiip.js is under the MIT license.
 
 ## Author
 
-Swiip.js was created Emmanuel CARTELLI
+Swiip.js was created by Emmanuel CARTELLI
