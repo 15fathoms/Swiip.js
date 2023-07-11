@@ -186,7 +186,7 @@ h3.animated:before{
 
 @keyframes shadowBounce{
     100%{
-        text-shadow: 0 1rem 0 #F46060;
+        text-shadow: 0 5px 0 #F46060;
     }
 }
 
