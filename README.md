@@ -2,6 +2,8 @@
 
 A minimalist carousel library built with pure JavaScript, CSS grid and ❤️.
 
+Check out the [demo](https://emmanuelcartelli.github.io/Swiip.js/).
+
 ## What is Swiip.js ?
 
 Swiip.js is a lightweight carousel library written in vanilla JavaScript. It offers a straightforward and customizable solution for implementing carousels on web pages.
