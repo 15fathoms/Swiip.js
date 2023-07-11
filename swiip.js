@@ -134,7 +134,7 @@ class Carousel {
     setTrackStyle() {
         this.track.style.display = "grid";
         this.track.style.gap = `${this.gap}rem`;
-        this.minusGap = (this.gap * (this.slidesVisible - 1)) / this.slidesVisible; // exemple avec 2 slides
+        this.minusGap = (this.gap * (this.slidesVisible - 1)) / this.slidesVisible;
         this.track.style.gridTemplateColumns = `repeat(${this.updatedChildren.length
             }, calc(${100 / this.slidesVisible}% - ${this.minusGap}rem))`;
         this.track.style.transform = `translateX(calc(-${this.index * (100 / this.slidesVisible)
