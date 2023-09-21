@@ -132,7 +132,7 @@ animateSectionMultipleElements(document.querySelector('.exemple-2'));
 window.onscroll = () => {
     animateSectionElements(document.querySelector('.exemple-1'));
 }
-lenis.on('scroll', (e) => {
+window.addEventListener('scroll', (e) => {
     let distance = window.scrollY;
     animateSectionElements(document.querySelector('.exemple-1'));
     animateSectionMultipleElements(document.querySelector('.exemple-2'));
