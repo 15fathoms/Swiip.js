@@ -1,13 +1,3 @@
-const lenis = new Lenis()
-
-
-function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-}
-
-requestAnimationFrame(raf)
-
 function animateHeader() {
     let text = [...document.querySelector('h1').textContent];
     let spans = [];
