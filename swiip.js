@@ -17,8 +17,8 @@ class Carousel {
         this.gap = this.options.gap || 0;
         this.baseOptions = {
             slidesToScroll: this.options.slidesToScroll || 1,
-            slidesVisible: this.options.slidesVisible || 4,
-            autoPlay: this.options.autoPlay || true,
+            slidesVisible: this.options.slidesVisible || 1,
+            autoPlay: this.options.autoPlay || false,
             autoPlaySpeed: this.options.autoPlaySpeed || 3000,
             gap: this.options.gap || 1
         };
